@@ -172,11 +172,11 @@ def network_diagnostic():
         s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         
         try:
-            s.bind(('192.168.100.100', 162))
-            print("✅ Can bind to 192.168.100.100:162")
-            local_ip = '192.168.100.100'
+            s.bind(('0.0.0.0', 162))
+            print("✅ Can bind to 0.0.0.0:162")
+            local_ip = '0.0.0.0'
         except:
-            print("⚠️ Cannot bind to 192.168.100.100:162, trying all interfaces...")
+            print("⚠️ Cannot bind to 0.0.0.0:162, trying all interfaces...")
             s.bind(('0.0.0.0', 162))
             local_ip = '0.0.0.0'
             print(f"✅ Bound to all interfaces on port 162")
@@ -370,6 +370,23 @@ def cbFun(snmpEngine, stateRef, contextEngineId, contextName, varBinds, cbCtx=No
         onu = parsed_msg['onu_id']
         path = f"dlsoltdata/dlspon{pon_main}onu{onu}"
         event_time = event_datetime.strftime("%Y-%m-%d %H:%M:%S")
+        
+        fb_key = f"dlspon{pon_main}onu{onu}"
+        fb_ref = db.reference("dlsoltdata")
+        sampledata = fb_ref.child(fb_key).get()
+        
+
+        # ftthno = sampledata.get('ftthno') if sampledata else None
+        # if (ftthno):
+        #     ftthpath = f"customerdata/{ftthno}/LS{event_time_raw}"
+        #     if(final_status == "LOS/Fibre break"):
+        #         db.reference(ftthpath).set({
+        #             "faulttime": event_time,
+        #         })
+        #     if(final_status == "ONLINE"):
+        #         db.reference(ftthpath).set({
+        #             "restoretime": event_time,
+        #         })
        
         db.reference(path).update({
             "pon_no": parsed_msg["pon_no"],
@@ -380,6 +397,9 @@ def cbFun(snmpEngine, stateRef, contextEngineId, contextName, varBinds, cbCtx=No
             "last_updated": current_local_time.strftime("%Y-%m-%d %H:%M:%S"),
             "eventtimeraw":event_time_raw
         })
+
+
+
         print(f"✅ Updated ONU status at: {path}")
         
     except Exception as e:

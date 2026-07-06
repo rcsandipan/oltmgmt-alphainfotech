@@ -1,0 +1,949 @@
+2026-02-12 19:51:52,831 [INFO] Trap received with community: 
+2026-02-12 19:51:52,832 [INFO] Total OIDs: 17
+2026-02-12 19:51:52,837 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-02-12 19:51:52,861 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-02-12 19:51:53,739 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-02-12 19:51:53,762 [DEBUG] Starting new HTTPS connection (1): oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443
+2026-02-12 19:51:56,584 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu5.json?print=silent HTTP/1.1" 204 0
+2026-02-12 19:52:27,439 [INFO] Trap received with community: 
+2026-02-12 19:52:27,439 [INFO] Total OIDs: 17
+2026-02-12 19:52:28,360 [INFO] Trap received with community: 
+2026-02-12 19:52:28,360 [INFO] Total OIDs: 17
+2026-02-12 19:52:28,364 [INFO] Trap received with community: 
+2026-02-12 19:52:28,364 [INFO] Total OIDs: 17
+2026-02-12 19:54:51,586 [INFO] Trap received with community: 
+2026-02-12 19:54:51,586 [INFO] Total OIDs: 17
+2026-02-12 19:54:52,601 [INFO] Trap received with community: 
+2026-02-12 19:54:52,601 [INFO] Total OIDs: 17
+2026-02-12 19:54:52,605 [INFO] Trap received with community: 
+2026-02-12 19:54:52,605 [INFO] Total OIDs: 17
+2026-02-12 19:56:47,685 [INFO] Trap received with community: 
+2026-02-12 19:56:47,685 [INFO] Total OIDs: 17
+2026-02-12 19:56:47,687 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-02-12 19:56:48,191 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon4onu39.json?print=silent HTTP/1.1" 204 0
+2026-02-12 19:58:20,592 [INFO] Trap received with community: 
+2026-02-12 19:58:20,592 [INFO] Total OIDs: 17
+2026-02-12 19:59:37,102 [INFO] Trap received with community: 
+2026-02-12 19:59:37,102 [INFO] Total OIDs: 17
+2026-02-12 19:59:37,104 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-02-12 19:59:37,443 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon4onu10.json?print=silent HTTP/1.1" 204 0
+2026-02-12 19:59:39,303 [INFO] Trap received with community: 
+2026-02-12 19:59:39,303 [INFO] Total OIDs: 17
+2026-02-12 19:59:39,434 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon4onu10.json?print=silent HTTP/1.1" 204 0
+2026-02-12 19:59:40,737 [INFO] Trap received with community: 
+2026-02-12 19:59:40,737 [INFO] Total OIDs: 17
+2026-02-12 19:59:41,067 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon4onu10.json?print=silent HTTP/1.1" 204 0
+2026-02-12 20:03:32,671 [INFO] Trap received with community: 
+2026-02-12 20:03:32,671 [INFO] Total OIDs: 17
+2026-02-12 20:11:16,215 [INFO] Trap received with community: 
+2026-02-12 20:11:16,215 [INFO] Total OIDs: 17
+2026-02-12 20:11:16,215 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-02-12 20:11:16,770 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu23.json?print=silent HTTP/1.1" 204 0
+2026-02-12 20:11:18,316 [INFO] Trap received with community: 
+2026-02-12 20:11:18,316 [INFO] Total OIDs: 17
+2026-02-12 20:11:18,440 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu23.json?print=silent HTTP/1.1" 204 0
+2026-02-12 20:13:57,644 [INFO] Trap received with community: 
+2026-02-12 20:13:57,644 [INFO] Total OIDs: 17
+2026-02-12 20:42:14,366 [INFO] Trap received with community: 
+2026-02-12 20:42:14,367 [INFO] Total OIDs: 17
+2026-02-12 20:42:14,369 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-02-12 20:42:14,785 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon4onu15.json?print=silent HTTP/1.1" 204 0
+2026-02-12 20:42:16,516 [INFO] Trap received with community: 
+2026-02-12 20:42:16,516 [INFO] Total OIDs: 17
+2026-02-12 20:42:16,644 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon4onu15.json?print=silent HTTP/1.1" 204 0
+2026-02-18 22:50:55,924 [INFO] Trap received with community: 
+2026-02-18 22:50:55,924 [INFO] Total OIDs: 17
+2026-02-18 22:50:55,975 [INFO] Trap received with community: 
+2026-02-18 22:50:55,975 [INFO] Total OIDs: 17
+2026-02-18 22:51:48,638 [INFO] Trap received with community: 
+2026-02-18 22:51:48,638 [INFO] Total OIDs: 17
+2026-02-18 22:51:48,640 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-02-18 22:51:48,658 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-02-18 22:51:49,160 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-02-18 22:51:49,162 [DEBUG] Starting new HTTPS connection (1): oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443
+2026-02-18 22:51:49,702 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu21.json?print=silent HTTP/1.1" 204 0
+2026-02-18 22:52:34,266 [INFO] Trap received with community: 
+2026-02-18 22:52:34,266 [INFO] Total OIDs: 17
+2026-02-18 22:52:34,432 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu21.json?print=silent HTTP/1.1" 204 0
+2026-02-18 22:52:34,752 [INFO] Trap received with community: 
+2026-02-18 22:52:34,752 [INFO] Total OIDs: 17
+2026-02-18 22:52:34,876 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu21.json?print=silent HTTP/1.1" 204 0
+2026-02-18 22:52:37,073 [INFO] Trap received with community: 
+2026-02-18 22:52:37,073 [INFO] Total OIDs: 17
+2026-02-18 22:52:37,205 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu21.json?print=silent HTTP/1.1" 204 0
+2026-02-18 23:10:47,403 [INFO] Trap received with community: 
+2026-02-18 23:10:47,403 [INFO] Total OIDs: 17
+2026-02-18 23:10:47,407 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-02-18 23:10:47,412 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-02-18 23:10:47,836 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-02-18 23:10:47,846 [DEBUG] Starting new HTTPS connection (1): oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443
+2026-02-18 23:10:48,232 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon1onu48.json?print=silent HTTP/1.1" 204 0
+2026-02-18 23:11:37,919 [INFO] Trap received with community: 
+2026-02-18 23:11:37,919 [INFO] Total OIDs: 17
+2026-02-18 23:11:38,050 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon1onu48.json?print=silent HTTP/1.1" 204 0
+2026-02-18 23:11:38,179 [INFO] Trap received with community: 
+2026-02-18 23:11:38,180 [INFO] Total OIDs: 17
+2026-02-18 23:11:38,307 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon1onu48.json?print=silent HTTP/1.1" 204 0
+2026-02-18 23:11:40,268 [INFO] Trap received with community: 
+2026-02-18 23:11:40,268 [INFO] Total OIDs: 17
+2026-02-18 23:11:40,386 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon1onu48.json?print=silent HTTP/1.1" 204 0
+2026-02-18 23:12:26,931 [INFO] Trap received with community: 
+2026-02-18 23:12:26,931 [INFO] Total OIDs: 17
+2026-02-18 23:12:27,048 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon2onu5.json?print=silent HTTP/1.1" 204 0
+2026-02-18 23:16:53,631 [INFO] Trap received with community: 
+2026-02-18 23:16:53,631 [INFO] Total OIDs: 17
+2026-02-18 23:18:20,512 [INFO] Trap received with community: 
+2026-02-18 23:18:20,512 [INFO] Total OIDs: 17
+2026-02-18 23:18:20,514 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-02-18 23:18:20,924 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon2onu17.json?print=silent HTTP/1.1" 204 0
+2026-02-18 23:18:22,633 [INFO] Trap received with community: 
+2026-02-18 23:18:22,633 [INFO] Total OIDs: 17
+2026-02-18 23:18:22,759 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon2onu17.json?print=silent HTTP/1.1" 204 0
+2026-02-18 23:21:39,369 [INFO] Trap received with community: 
+2026-02-18 23:21:39,369 [INFO] Total OIDs: 17
+2026-02-18 23:21:39,371 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-02-18 23:21:39,700 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon8onu21.json?print=silent HTTP/1.1" 204 0
+2026-02-19 08:16:08,156 [ERROR] Dispatcher error: poll error: Traceback (most recent call last):
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\site-packages\pysnmp\carrier\asyncore\dispatch.py", line 45, in runDispatcher
+    loop(timeout or self.getTimerResolution(),
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\asyncore.py", line 214, in loop
+    poll_fun(timeout, map)
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\asyncore.py", line 157, in poll
+    read(obj)
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\asyncore.py", line 94, in read
+    obj.handle_error()
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\asyncore.py", line 90, in read
+    obj.handle_read_event()
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\asyncore.py", line 427, in handle_read_event
+    self.handle_read()
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\site-packages\pysnmp\carrier\asyncore\dgram\base.py", line 170, in handle_read
+    self._cbFun(self, transportAddress, incomingMessage)
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\site-packages\pysnmp\carrier\base.py", line 84, in _cbFun
+    self.__recvCallables[recvId](
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\site-packages\pysnmp\entity\engine.py", line 151, in __receiveMessageCbFun
+    self.msgAndPduDsp.receiveMessage(
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\site-packages\pysnmp\proto\rfc3412.py", line 430, in receiveMessage
+    processPdu(snmpEngine, messageProcessingModel,
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\site-packages\pysnmp\entity\rfc3413\ntfrcv.py", line 110, in processPdu
+    self.__cbFun(snmpEngine, contextEngineId, contextName,
+;  File "E:\OLT MGMT\kcwoltmgmt.py", line 283, in cbFun
+    transportDomain, transportAddress = snmpEngine.msgAndPduDsp.getTransportInfo(stateRef)
+;  File "C:\Users\MSI\AppData\Local\Programs\Python\Python310\lib\site-packages\pysnmp\proto\rfc3412.py", line 52, in getTransportInfo
+    raise error.ProtocolError(
+;pysnmp.proto.error.ProtocolError: No data for stateReference \x80 O¸1 \x8e@
+caused by <class 'pysnmp.proto.error.ProtocolError'>: No data for stateReference \x80 O¸1 \x8e@
+2026-02-19 20:07:29,530 [INFO] Trap received with community: 
+2026-02-19 20:07:29,530 [INFO] Total OIDs: 17
+2026-02-19 20:07:29,546 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-02-19 20:07:29,625 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-02-19 20:07:30,497 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-02-19 20:07:30,513 [DEBUG] Starting new HTTPS connection (1): oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443
+2026-02-19 20:07:30,946 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon3onu44.json?print=silent HTTP/1.1" 204 0
+2026-02-19 20:07:31,614 [INFO] Trap received with community: 
+2026-02-19 20:07:31,614 [INFO] Total OIDs: 17
+2026-02-19 20:07:31,763 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon3onu44.json?print=silent HTTP/1.1" 204 0
+2026-02-19 20:09:05,668 [INFO] Trap received with community: 
+2026-02-19 20:09:05,668 [INFO] Total OIDs: 17
+2026-02-19 20:09:38,359 [INFO] Trap received with community: 
+2026-02-19 20:09:38,359 [INFO] Total OIDs: 17
+2026-02-19 20:09:38,376 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-02-19 20:09:38,381 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-02-19 20:09:38,794 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-02-19 20:09:38,794 [DEBUG] Starting new HTTPS connection (1): oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443
+2026-02-19 20:09:39,156 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon7onu11.json?print=silent HTTP/1.1" 204 0
+2026-02-19 20:09:39,999 [INFO] Trap received with community: 
+2026-02-19 20:09:39,999 [INFO] Total OIDs: 17
+2026-02-19 20:09:40,141 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon7onu11.json?print=silent HTTP/1.1" 204 0
+2026-02-19 20:09:42,187 [INFO] Trap received with community: 
+2026-02-19 20:09:42,187 [INFO] Total OIDs: 17
+2026-02-19 20:09:42,327 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /kcwoltdata/kcwpon7onu11.json?print=silent HTTP/1.1" 204 0
+2026-02-25 21:00:44,735 [INFO] Trap received with community: 
+2026-02-25 21:00:44,735 [INFO] Total OIDs: 17
+2026-02-25 21:01:11,069 [INFO] Trap received with community: 
+2026-02-25 21:01:11,070 [INFO] Total OIDs: 17
+2026-02-25 21:01:11,072 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-02-25 21:01:11,097 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-02-25 21:01:11,908 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-02-25 21:01:11,913 [DEBUG] Starting new HTTPS connection (1): oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443
+2026-02-25 21:01:12,736 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 406
+2026-02-25 21:01:13,156 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PUT /customerdata/2315111/LS20260225210205.json?print=silent HTTP/1.1" 204 0
+2026-02-25 21:01:13,340 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-02-25 21:01:59,234 [INFO] Trap received with community: 
+2026-02-25 21:01:59,235 [INFO] Total OIDs: 17
+2026-02-25 21:01:59,480 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 434
+2026-02-25 21:01:59,653 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-02-25 21:02:00,119 [INFO] Trap received with community: 
+2026-02-25 21:02:00,119 [INFO] Total OIDs: 17
+2026-02-25 21:02:00,321 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 426
+2026-02-25 21:02:00,682 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-02-25 21:02:02,953 [INFO] Trap received with community: 
+2026-02-25 21:02:02,953 [INFO] Total OIDs: 17
+2026-02-25 21:02:03,203 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 426
+2026-02-25 21:02:03,341 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PUT /customerdata/2315111/LS20260225210257.json?print=silent HTTP/1.1" 204 0
+2026-02-25 21:02:03,478 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:45:01,375 [INFO] Trap received with community: 
+2026-06-21 06:45:01,375 [INFO] Total OIDs: 17
+2026-06-21 06:45:01,559 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-06-21 06:45:01,569 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-06-21 06:45:01,881 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-06-21 06:45:01,882 [DEBUG] Starting new HTTPS connection (1): oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443
+2026-06-21 06:45:02,312 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 427
+2026-06-21 06:45:02,480 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:45:02,485 [INFO] Trap received with community: 
+2026-06-21 06:45:02,485 [INFO] Total OIDs: 17
+2026-06-21 06:45:02,658 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 430
+2026-06-21 06:45:02,828 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:45:05,179 [INFO] Trap received with community: 
+2026-06-21 06:45:05,179 [INFO] Total OIDs: 17
+2026-06-21 06:45:05,359 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 430
+2026-06-21 06:45:05,527 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PUT /customerdata/2315111/LS20260621064629.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:45:05,696 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:47:25,646 [INFO] Trap received with community: 
+2026-06-21 06:47:25,646 [INFO] Total OIDs: 17
+2026-06-21 06:47:25,650 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-06-21 06:47:25,656 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-06-21 06:47:25,998 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-06-21 06:47:26,000 [DEBUG] Starting new HTTPS connection (1): oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443
+2026-06-21 06:47:26,420 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu32.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:47:26,462 [INFO] Trap received with community: 
+2026-06-21 06:47:26,462 [INFO] Total OIDs: 17
+2026-06-21 06:47:26,629 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu32.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:47:28,382 [INFO] Trap received with community: 
+2026-06-21 06:47:28,382 [INFO] Total OIDs: 17
+2026-06-21 06:47:28,558 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu32.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:48:51,506 [INFO] Trap received with community: 
+2026-06-21 06:48:51,506 [INFO] Total OIDs: 17
+2026-06-21 06:50:05,596 [INFO] Trap received with community: 
+2026-06-21 06:50:05,596 [INFO] Total OIDs: 17
+2026-06-21 06:50:05,598 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 06:50:06,103 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 450
+2026-06-21 06:50:06,281 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:50:39,747 [INFO] Trap received with community: 
+2026-06-21 06:50:39,747 [INFO] Total OIDs: 17
+2026-06-21 06:53:17,187 [INFO] Trap received with community: 
+2026-06-21 06:53:17,187 [INFO] Total OIDs: 17
+2026-06-21 06:53:17,190 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 06:53:17,672 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 470
+2026-06-21 06:53:17,835 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:53:31,167 [INFO] Trap received with community: 
+2026-06-21 06:53:31,167 [INFO] Total OIDs: 17
+2026-06-21 06:53:31,344 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 470
+2026-06-21 06:53:31,515 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:54:10,261 [INFO] Trap received with community: 
+2026-06-21 06:54:10,261 [INFO] Total OIDs: 17
+2026-06-21 06:55:20,107 [INFO] Trap received with community: 
+2026-06-21 06:55:20,107 [INFO] Total OIDs: 17
+2026-06-21 06:55:20,109 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 06:55:20,626 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 470
+2026-06-21 06:55:20,808 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:55:38,378 [INFO] Trap received with community: 
+2026-06-21 06:55:38,378 [INFO] Total OIDs: 17
+2026-06-21 06:56:44,599 [INFO] Trap received with community: 
+2026-06-21 06:56:44,599 [INFO] Total OIDs: 17
+2026-06-21 06:56:44,602 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 06:56:45,016 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 470
+2026-06-21 06:56:45,196 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:58:13,098 [INFO] Trap received with community: 
+2026-06-21 06:58:13,098 [INFO] Total OIDs: 17
+2026-06-21 06:59:42,091 [INFO] Trap received with community: 
+2026-06-21 06:59:42,091 [INFO] Total OIDs: 17
+2026-06-21 06:59:42,107 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 06:59:42,541 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 470
+2026-06-21 06:59:42,716 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 06:59:42,716 [INFO] Trap received with community: 
+2026-06-21 06:59:42,716 [INFO] Total OIDs: 17
+2026-06-21 06:59:55,604 [INFO] Trap received with community: 
+2026-06-21 06:59:55,604 [INFO] Total OIDs: 17
+2026-06-21 06:59:55,775 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 470
+2026-06-21 06:59:55,935 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:00:10,003 [INFO] Trap received with community: 
+2026-06-21 07:00:10,003 [INFO] Total OIDs: 17
+2026-06-21 07:01:11,124 [INFO] Trap received with community: 
+2026-06-21 07:01:11,124 [INFO] Total OIDs: 17
+2026-06-21 07:01:11,126 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 07:01:11,511 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 455
+2026-06-21 07:01:11,679 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:01:25,543 [INFO] Trap received with community: 
+2026-06-21 07:01:25,543 [INFO] Total OIDs: 17
+2026-06-21 07:02:26,600 [INFO] Trap received with community: 
+2026-06-21 07:02:26,600 [INFO] Total OIDs: 17
+2026-06-21 07:02:26,671 [DEBUG] Incremented Retry for (url='/dlsoltdata/dlspon3onu21.json'): Retry(total=9, connect=1, read=0, redirect=None, status=4)
+2026-06-21 07:02:26,671 [WARNING] Retrying (Retry(total=9, connect=1, read=0, redirect=None, status=4)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /dlsoltdata/dlspon3onu21.json
+2026-06-21 07:02:26,671 [DEBUG] Starting new HTTPS connection (2): oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443
+2026-06-21 07:02:27,164 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 472
+2026-06-21 07:02:27,344 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:02:27,789 [INFO] Trap received with community: 
+2026-06-21 07:02:27,789 [INFO] Total OIDs: 17
+2026-06-21 07:02:27,952 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 472
+2026-06-21 07:02:28,107 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:02:41,865 [INFO] Trap received with community: 
+2026-06-21 07:02:41,865 [INFO] Total OIDs: 17
+2026-06-21 07:02:42,034 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu21.json HTTP/1.1" 200 472
+2026-06-21 07:02:42,197 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PUT /customerdata/2312424/LS20260621070405.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:02:42,357 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:08,551 [INFO] Trap received with community: 
+2026-06-21 07:05:08,551 [INFO] Total OIDs: 17
+2026-06-21 07:05:08,553 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 07:05:09,019 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu32.json HTTP/1.1" 200 281
+2026-06-21 07:05:09,198 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu32.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:09,203 [INFO] Trap received with community: 
+2026-06-21 07:05:09,203 [INFO] Total OIDs: 17
+2026-06-21 07:05:09,395 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu17.json HTTP/1.1" 200 453
+2026-06-21 07:05:09,576 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu17.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:09,579 [INFO] Trap received with community: 
+2026-06-21 07:05:09,579 [INFO] Total OIDs: 17
+2026-06-21 07:05:09,762 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu7.json HTTP/1.1" 200 369
+2026-06-21 07:05:09,952 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu7.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:09,957 [INFO] Trap received with community: 
+2026-06-21 07:05:09,957 [INFO] Total OIDs: 17
+2026-06-21 07:05:10,139 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu26.json HTTP/1.1" 200 388
+2026-06-21 07:05:10,315 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu26.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:10,320 [INFO] Trap received with community: 
+2026-06-21 07:05:10,320 [INFO] Total OIDs: 17
+2026-06-21 07:05:10,517 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu11.json HTTP/1.1" 200 432
+2026-06-21 07:05:10,697 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu11.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:10,701 [INFO] Trap received with community: 
+2026-06-21 07:05:10,701 [INFO] Total OIDs: 17
+2026-06-21 07:05:10,883 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu19.json HTTP/1.1" 200 446
+2026-06-21 07:05:11,064 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu19.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:11,068 [INFO] Trap received with community: 
+2026-06-21 07:05:11,068 [INFO] Total OIDs: 17
+2026-06-21 07:05:11,258 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu3.json HTTP/1.1" 200 433
+2026-06-21 07:05:11,445 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu3.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:11,449 [INFO] Trap received with community: 
+2026-06-21 07:05:11,449 [INFO] Total OIDs: 17
+2026-06-21 07:05:11,627 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu29.json HTTP/1.1" 200 260
+2026-06-21 07:05:11,807 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu29.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:11,812 [INFO] Trap received with community: 
+2026-06-21 07:05:11,812 [INFO] Total OIDs: 17
+2026-06-21 07:05:11,993 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu31.json HTTP/1.1" 200 281
+2026-06-21 07:05:12,180 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu31.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:12,184 [INFO] Trap received with community: 
+2026-06-21 07:05:12,184 [INFO] Total OIDs: 17
+2026-06-21 07:05:12,363 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu21.json HTTP/1.1" 200 461
+2026-06-21 07:05:12,546 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:12,553 [INFO] Trap received with community: 
+2026-06-21 07:05:12,553 [INFO] Total OIDs: 17
+2026-06-21 07:05:12,731 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu25.json HTTP/1.1" 200 281
+2026-06-21 07:05:12,918 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu25.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:12,923 [INFO] Trap received with community: 
+2026-06-21 07:05:12,923 [INFO] Total OIDs: 17
+2026-06-21 07:05:13,102 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu8.json HTTP/1.1" 200 441
+2026-06-21 07:05:13,293 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu8.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:13,297 [INFO] Trap received with community: 
+2026-06-21 07:05:13,297 [INFO] Total OIDs: 17
+2026-06-21 07:05:13,470 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu30.json HTTP/1.1" 200 300
+2026-06-21 07:05:13,659 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu30.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:13,665 [INFO] Trap received with community: 
+2026-06-21 07:05:13,665 [INFO] Total OIDs: 17
+2026-06-21 07:05:13,847 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu1.json HTTP/1.1" 200 342
+2026-06-21 07:05:14,027 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu1.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:14,037 [INFO] Trap received with community: 
+2026-06-21 07:05:14,037 [INFO] Total OIDs: 17
+2026-06-21 07:05:14,219 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu5.json HTTP/1.1" 200 440
+2026-06-21 07:05:14,401 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu5.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:14,406 [INFO] Trap received with community: 
+2026-06-21 07:05:14,406 [INFO] Total OIDs: 17
+2026-06-21 07:05:14,586 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu18.json HTTP/1.1" 200 281
+2026-06-21 07:05:14,777 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu18.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:14,781 [INFO] Trap received with community: 
+2026-06-21 07:05:14,781 [INFO] Total OIDs: 17
+2026-06-21 07:05:14,955 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu15.json HTTP/1.1" 200 444
+2026-06-21 07:05:15,141 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:15,151 [INFO] Trap received with community: 
+2026-06-21 07:05:15,151 [INFO] Total OIDs: 17
+2026-06-21 07:05:15,329 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu15.json HTTP/1.1" 200 468
+2026-06-21 07:05:15,507 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:15,517 [INFO] Trap received with community: 
+2026-06-21 07:05:15,517 [INFO] Total OIDs: 17
+2026-06-21 07:05:15,695 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu15.json HTTP/1.1" 200 468
+2026-06-21 07:05:15,878 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:15,882 [INFO] Trap received with community: 
+2026-06-21 07:05:15,883 [INFO] Total OIDs: 17
+2026-06-21 07:05:16,058 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu15.json HTTP/1.1" 200 468
+2026-06-21 07:05:16,250 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:16,266 [INFO] Trap received with community: 
+2026-06-21 07:05:16,267 [INFO] Total OIDs: 17
+2026-06-21 07:05:16,456 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu18.json HTTP/1.1" 200 427
+2026-06-21 07:05:16,636 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu18.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:16,640 [INFO] Trap received with community: 
+2026-06-21 07:05:16,640 [INFO] Total OIDs: 17
+2026-06-21 07:05:16,817 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu16.json HTTP/1.1" 200 447
+2026-06-21 07:05:16,995 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu16.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:17,000 [INFO] Trap received with community: 
+2026-06-21 07:05:17,000 [INFO] Total OIDs: 17
+2026-06-21 07:05:17,182 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu3.json HTTP/1.1" 200 460
+2026-06-21 07:05:17,375 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu3.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:17,380 [INFO] Trap received with community: 
+2026-06-21 07:05:17,380 [INFO] Total OIDs: 17
+2026-06-21 07:05:17,562 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu26.json HTTP/1.1" 200 241
+2026-06-21 07:05:17,744 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu26.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:17,748 [INFO] Trap received with community: 
+2026-06-21 07:05:17,748 [INFO] Total OIDs: 17
+2026-06-21 07:05:17,927 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu32.json HTTP/1.1" 200 305
+2026-06-21 07:05:18,115 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu32.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:18,119 [INFO] Trap received with community: 
+2026-06-21 07:05:18,119 [INFO] Total OIDs: 17
+2026-06-21 07:05:18,301 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu8.json HTTP/1.1" 200 465
+2026-06-21 07:05:18,493 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu8.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:18,497 [INFO] Trap received with community: 
+2026-06-21 07:05:18,497 [INFO] Total OIDs: 17
+2026-06-21 07:05:18,676 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu17.json HTTP/1.1" 200 477
+2026-06-21 07:05:18,859 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu17.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:18,863 [INFO] Trap received with community: 
+2026-06-21 07:05:18,863 [INFO] Total OIDs: 17
+2026-06-21 07:05:19,046 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu29.json HTTP/1.1" 200 265
+2026-06-21 07:05:19,231 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu29.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:19,235 [INFO] Trap received with community: 
+2026-06-21 07:05:19,236 [INFO] Total OIDs: 17
+2026-06-21 07:05:19,408 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu5.json HTTP/1.1" 200 445
+2026-06-21 07:05:19,604 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu5.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:19,607 [INFO] Trap received with community: 
+2026-06-21 07:05:19,607 [INFO] Total OIDs: 17
+2026-06-21 07:05:19,779 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu11.json HTTP/1.1" 200 456
+2026-06-21 07:05:19,972 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu11.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:19,976 [INFO] Trap received with community: 
+2026-06-21 07:05:19,976 [INFO] Total OIDs: 17
+2026-06-21 07:05:20,153 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu3.json HTTP/1.1" 200 457
+2026-06-21 07:05:20,331 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu3.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:20,335 [INFO] Trap received with community: 
+2026-06-21 07:05:20,335 [INFO] Total OIDs: 17
+2026-06-21 07:05:20,519 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu15.json HTTP/1.1" 200 468
+2026-06-21 07:05:20,698 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:20,701 [INFO] Trap received with community: 
+2026-06-21 07:05:20,701 [INFO] Total OIDs: 17
+2026-06-21 07:05:20,874 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu25.json HTTP/1.1" 200 305
+2026-06-21 07:05:21,063 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu25.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:21,067 [INFO] Trap received with community: 
+2026-06-21 07:05:21,067 [INFO] Total OIDs: 17
+2026-06-21 07:05:21,374 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu1.json HTTP/1.1" 200 398
+2026-06-21 07:05:21,556 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu1.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:21,565 [INFO] Trap received with community: 
+2026-06-21 07:05:21,565 [INFO] Total OIDs: 17
+2026-06-21 07:05:21,858 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu4.json HTTP/1.1" 200 452
+2026-06-21 07:05:21,858 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.200/LS20260621070636". Path contains illegal characters.
+2026-06-21 07:05:21,862 [INFO] Trap received with community: 
+2026-06-21 07:05:21,862 [INFO] Total OIDs: 17
+2026-06-21 07:05:22,036 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu28.json HTTP/1.1" 200 241
+2026-06-21 07:05:22,216 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu28.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:22,220 [INFO] Trap received with community: 
+2026-06-21 07:05:22,220 [INFO] Total OIDs: 17
+2026-06-21 07:05:22,399 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu16.json HTTP/1.1" 200 471
+2026-06-21 07:05:22,583 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu16.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:22,591 [INFO] Trap received with community: 
+2026-06-21 07:05:22,591 [INFO] Total OIDs: 17
+2026-06-21 07:05:22,764 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu7.json HTTP/1.1" 200 425
+2026-06-21 07:05:23,097 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu7.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:23,103 [INFO] Trap received with community: 
+2026-06-21 07:05:23,103 [INFO] Total OIDs: 17
+2026-06-21 07:05:23,283 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu19.json HTTP/1.1" 200 470
+2026-06-21 07:05:23,608 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu19.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:23,612 [INFO] Trap received with community: 
+2026-06-21 07:05:23,612 [INFO] Total OIDs: 17
+2026-06-21 07:05:23,792 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu31.json HTTP/1.1" 200 305
+2026-06-21 07:05:23,977 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu31.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:23,980 [INFO] Trap received with community: 
+2026-06-21 07:05:23,980 [INFO] Total OIDs: 17
+2026-06-21 07:05:24,159 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu21.json HTTP/1.1" 200 485
+2026-06-21 07:05:24,343 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:24,347 [INFO] Trap received with community: 
+2026-06-21 07:05:24,347 [INFO] Total OIDs: 17
+2026-06-21 07:05:24,526 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu21.json HTTP/1.1" 200 388
+2026-06-21 07:05:24,706 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:24,710 [INFO] Trap received with community: 
+2026-06-21 07:05:24,710 [INFO] Total OIDs: 17
+2026-06-21 07:05:24,888 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu9.json HTTP/1.1" 200 412
+2026-06-21 07:05:25,077 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PUT /customerdata/2951057/LS20260621070638.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:25,257 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu9.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:25,262 [INFO] Trap received with community: 
+2026-06-21 07:05:25,262 [INFO] Total OIDs: 17
+2026-06-21 07:05:25,440 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu34.json HTTP/1.1" 200 388
+2026-06-21 07:05:25,636 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu34.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:25,646 [INFO] Trap received with community: 
+2026-06-21 07:05:25,646 [INFO] Total OIDs: 17
+2026-06-21 07:05:25,833 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu3.json HTTP/1.1" 200 465
+2026-06-21 07:05:26,007 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu3.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:26,013 [INFO] Trap received with community: 
+2026-06-21 07:05:26,013 [INFO] Total OIDs: 17
+2026-06-21 07:05:26,199 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu26.json HTTP/1.1" 200 412
+2026-06-21 07:05:26,383 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu26.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:26,391 [INFO] Trap received with community: 
+2026-06-21 07:05:26,391 [INFO] Total OIDs: 17
+2026-06-21 07:05:26,571 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu26.json HTTP/1.1" 200 265
+2026-06-21 07:05:26,749 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu26.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:26,752 [INFO] Trap received with community: 
+2026-06-21 07:05:26,752 [INFO] Total OIDs: 17
+2026-06-21 07:05:26,933 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu30.json HTTP/1.1" 200 305
+2026-06-21 07:05:27,117 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu30.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:27,127 [INFO] Trap received with community: 
+2026-06-21 07:05:27,127 [INFO] Total OIDs: 17
+2026-06-21 07:05:27,304 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu18.json HTTP/1.1" 200 451
+2026-06-21 07:05:27,482 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu18.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:27,487 [INFO] Trap received with community: 
+2026-06-21 07:05:27,487 [INFO] Total OIDs: 17
+2026-06-21 07:05:27,679 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu18.json HTTP/1.1" 200 305
+2026-06-21 07:05:27,866 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu18.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:27,871 [INFO] Trap received with community: 
+2026-06-21 07:05:27,872 [INFO] Total OIDs: 17
+2026-06-21 07:05:28,051 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu36.json HTTP/1.1" 200 281
+2026-06-21 07:05:28,236 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu36.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:28,241 [INFO] Trap received with community: 
+2026-06-21 07:05:28,241 [INFO] Total OIDs: 17
+2026-06-21 07:05:28,419 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu12.json HTTP/1.1" 200 468
+2026-06-21 07:05:28,602 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu12.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:05:28,607 [INFO] Trap received with community: 
+2026-06-21 07:05:28,607 [INFO] Total OIDs: 17
+2026-06-21 07:05:28,788 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu12.json HTTP/1.1" 200 473
+2026-06-21 07:05:28,968 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu12.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:30,671 [INFO] Trap received with community: 
+2026-06-21 07:08:30,671 [INFO] Total OIDs: 17
+2026-06-21 07:08:30,674 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 07:08:31,230 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu15.json HTTP/1.1" 200 468
+2026-06-21 07:08:31,412 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:37,787 [INFO] Trap received with community: 
+2026-06-21 07:08:37,787 [INFO] Total OIDs: 17
+2026-06-21 07:08:37,981 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu15.json HTTP/1.1" 200 464
+2026-06-21 07:08:38,167 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:40,170 [INFO] Trap received with community: 
+2026-06-21 07:08:40,170 [INFO] Total OIDs: 17
+2026-06-21 07:08:40,356 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu4.json HTTP/1.1" 200 452
+2026-06-21 07:08:40,541 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu4.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:40,546 [INFO] Trap received with community: 
+2026-06-21 07:08:40,546 [INFO] Total OIDs: 17
+2026-06-21 07:08:40,722 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu9.json HTTP/1.1" 200 440
+2026-06-21 07:08:40,908 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu9.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:41,387 [INFO] Trap received with community: 
+2026-06-21 07:08:41,387 [INFO] Total OIDs: 17
+2026-06-21 07:08:41,560 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu15.json HTTP/1.1" 200 464
+2026-06-21 07:08:41,560 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.81/LS20260621071005". Path contains illegal characters.
+2026-06-21 07:08:41,857 [INFO] Trap received with community: 
+2026-06-21 07:08:41,857 [INFO] Total OIDs: 17
+2026-06-21 07:08:42,039 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu4.json HTTP/1.1" 200 472
+2026-06-21 07:08:42,227 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu4.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:42,231 [INFO] Trap received with community: 
+2026-06-21 07:08:42,231 [INFO] Total OIDs: 17
+2026-06-21 07:08:42,411 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu9.json HTTP/1.1" 200 432
+2026-06-21 07:08:42,600 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu9.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:43,948 [INFO] Trap received with community: 
+2026-06-21 07:08:43,948 [INFO] Total OIDs: 17
+2026-06-21 07:08:44,130 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu4.json HTTP/1.1" 200 472
+2026-06-21 07:08:44,130 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.200/LS20260621071008". Path contains illegal characters.
+2026-06-21 07:08:44,387 [INFO] Trap received with community: 
+2026-06-21 07:08:44,387 [INFO] Total OIDs: 17
+2026-06-21 07:08:44,567 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu9.json HTTP/1.1" 200 432
+2026-06-21 07:08:44,751 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PUT /customerdata/2951057/LS20260621071008.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:44,928 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu9.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:56,212 [INFO] Trap received with community: 
+2026-06-21 07:08:56,212 [INFO] Total OIDs: 17
+2026-06-21 07:08:56,390 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu8.json HTTP/1.1" 200 465
+2026-06-21 07:08:56,572 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu8.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:56,647 [INFO] Trap received with community: 
+2026-06-21 07:08:56,647 [INFO] Total OIDs: 17
+2026-06-21 07:08:56,829 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu8.json HTTP/1.1" 200 461
+2026-06-21 07:08:57,014 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu8.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:57,022 [INFO] Trap received with community: 
+2026-06-21 07:08:57,022 [INFO] Total OIDs: 17
+2026-06-21 07:08:57,199 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu21.json HTTP/1.1" 200 416
+2026-06-21 07:08:57,382 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:08:58,838 [INFO] Trap received with community: 
+2026-06-21 07:08:58,838 [INFO] Total OIDs: 17
+2026-06-21 07:08:59,016 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu21.json HTTP/1.1" 200 408
+2026-06-21 07:08:59,194 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:00,109 [INFO] Trap received with community: 
+2026-06-21 07:09:00,109 [INFO] Total OIDs: 17
+2026-06-21 07:09:00,280 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu25.json HTTP/1.1" 200 305
+2026-06-21 07:09:00,459 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu25.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:00,463 [INFO] Trap received with community: 
+2026-06-21 07:09:00,464 [INFO] Total OIDs: 17
+2026-06-21 07:09:00,637 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu34.json HTTP/1.1" 200 416
+2026-06-21 07:09:00,808 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu34.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:00,813 [INFO] Trap received with community: 
+2026-06-21 07:09:00,813 [INFO] Total OIDs: 17
+2026-06-21 07:09:00,989 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu28.json HTTP/1.1" 200 269
+2026-06-21 07:09:01,167 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu28.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:01,171 [INFO] Trap received with community: 
+2026-06-21 07:09:01,171 [INFO] Total OIDs: 17
+2026-06-21 07:09:01,350 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu36.json HTTP/1.1" 200 309
+2026-06-21 07:09:01,528 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu36.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:01,532 [INFO] Trap received with community: 
+2026-06-21 07:09:01,533 [INFO] Total OIDs: 17
+2026-06-21 07:09:01,715 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu34.json HTTP/1.1" 200 408
+2026-06-21 07:09:01,892 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu34.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:01,897 [INFO] Trap received with community: 
+2026-06-21 07:09:01,898 [INFO] Total OIDs: 17
+2026-06-21 07:09:02,072 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu25.json HTTP/1.1" 200 301
+2026-06-21 07:09:02,253 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu25.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:02,257 [INFO] Trap received with community: 
+2026-06-21 07:09:02,257 [INFO] Total OIDs: 17
+2026-06-21 07:09:02,433 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu5.json HTTP/1.1" 200 445
+2026-06-21 07:09:02,616 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu5.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:02,621 [INFO] Trap received with community: 
+2026-06-21 07:09:02,621 [INFO] Total OIDs: 17
+2026-06-21 07:09:02,798 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu28.json HTTP/1.1" 200 261
+2026-06-21 07:09:02,973 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu28.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:02,977 [INFO] Trap received with community: 
+2026-06-21 07:09:02,977 [INFO] Total OIDs: 17
+2026-06-21 07:09:03,150 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu21.json HTTP/1.1" 200 408
+2026-06-21 07:09:03,337 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:03,341 [INFO] Trap received with community: 
+2026-06-21 07:09:03,341 [INFO] Total OIDs: 17
+2026-06-21 07:09:03,518 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu32.json HTTP/1.1" 200 305
+2026-06-21 07:09:03,705 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu32.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:03,712 [INFO] Trap received with community: 
+2026-06-21 07:09:03,712 [INFO] Total OIDs: 17
+2026-06-21 07:09:03,900 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu36.json HTTP/1.1" 200 301
+2026-06-21 07:09:04,078 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu36.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:04,085 [INFO] Trap received with community: 
+2026-06-21 07:09:04,085 [INFO] Total OIDs: 17
+2026-06-21 07:09:04,264 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu5.json HTTP/1.1" 200 441
+2026-06-21 07:09:04,463 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu5.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:04,467 [INFO] Trap received with community: 
+2026-06-21 07:09:04,467 [INFO] Total OIDs: 17
+2026-06-21 07:09:04,645 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu31.json HTTP/1.1" 200 305
+2026-06-21 07:09:04,834 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu31.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:04,849 [INFO] Trap received with community: 
+2026-06-21 07:09:04,850 [INFO] Total OIDs: 17
+2026-06-21 07:09:05,028 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu21.json HTTP/1.1" 200 485
+2026-06-21 07:09:05,211 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:05,215 [INFO] Trap received with community: 
+2026-06-21 07:09:05,215 [INFO] Total OIDs: 17
+2026-06-21 07:09:05,391 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu1.json HTTP/1.1" 200 398
+2026-06-21 07:09:05,570 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu1.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:05,580 [INFO] Trap received with community: 
+2026-06-21 07:09:05,580 [INFO] Total OIDs: 17
+2026-06-21 07:09:05,765 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu18.json HTTP/1.1" 200 451
+2026-06-21 07:09:05,944 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu18.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:05,953 [INFO] Trap received with community: 
+2026-06-21 07:09:05,953 [INFO] Total OIDs: 17
+2026-06-21 07:09:06,123 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu8.json HTTP/1.1" 200 461
+2026-06-21 07:09:06,125 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.178/LS20260621071026". Path contains illegal characters.
+2026-06-21 07:09:06,140 [INFO] Trap received with community: 
+2026-06-21 07:09:06,141 [INFO] Total OIDs: 17
+2026-06-21 07:09:06,326 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu21.json HTTP/1.1" 200 481
+2026-06-21 07:09:06,500 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu21.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:06,504 [INFO] Trap received with community: 
+2026-06-21 07:09:06,504 [INFO] Total OIDs: 17
+2026-06-21 07:09:06,683 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu18.json HTTP/1.1" 200 305
+2026-06-21 07:09:06,873 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu18.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:06,882 [INFO] Trap received with community: 
+2026-06-21 07:09:06,883 [INFO] Total OIDs: 17
+2026-06-21 07:09:07,051 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu31.json HTTP/1.1" 200 301
+2026-06-21 07:09:07,235 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu31.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:07,240 [INFO] Trap received with community: 
+2026-06-21 07:09:07,240 [INFO] Total OIDs: 17
+2026-06-21 07:09:07,416 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu34.json HTTP/1.1" 200 408
+2026-06-21 07:09:07,595 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu34.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:07,605 [INFO] Trap received with community: 
+2026-06-21 07:09:07,605 [INFO] Total OIDs: 17
+2026-06-21 07:09:07,787 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu32.json HTTP/1.1" 200 301
+2026-06-21 07:09:07,961 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu32.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:07,970 [INFO] Trap received with community: 
+2026-06-21 07:09:07,970 [INFO] Total OIDs: 17
+2026-06-21 07:09:08,146 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu25.json HTTP/1.1" 200 301
+2026-06-21 07:09:08,325 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu25.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:08,335 [INFO] Trap received with community: 
+2026-06-21 07:09:08,335 [INFO] Total OIDs: 17
+2026-06-21 07:09:08,510 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu30.json HTTP/1.1" 200 305
+2026-06-21 07:09:08,686 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu30.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:08,692 [INFO] Trap received with community: 
+2026-06-21 07:09:08,692 [INFO] Total OIDs: 17
+2026-06-21 07:09:08,869 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu28.json HTTP/1.1" 200 261
+2026-06-21 07:09:09,056 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu28.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:09,066 [INFO] Trap received with community: 
+2026-06-21 07:09:09,066 [INFO] Total OIDs: 17
+2026-06-21 07:09:09,241 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu1.json HTTP/1.1" 200 394
+2026-06-21 07:09:09,420 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu1.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:09,433 [INFO] Trap received with community: 
+2026-06-21 07:09:09,433 [INFO] Total OIDs: 17
+2026-06-21 07:09:09,606 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu18.json HTTP/1.1" 200 447
+2026-06-21 07:09:09,789 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu18.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:09,805 [INFO] Trap received with community: 
+2026-06-21 07:09:09,805 [INFO] Total OIDs: 17
+2026-06-21 07:09:09,983 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu36.json HTTP/1.1" 200 301
+2026-06-21 07:09:10,176 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu36.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:10,186 [INFO] Trap received with community: 
+2026-06-21 07:09:10,186 [INFO] Total OIDs: 17
+2026-06-21 07:09:10,361 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu29.json HTTP/1.1" 200 265
+2026-06-21 07:09:10,536 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu29.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:10,544 [INFO] Trap received with community: 
+2026-06-21 07:09:10,545 [INFO] Total OIDs: 17
+2026-06-21 07:09:10,720 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu5.json HTTP/1.1" 200 441
+2026-06-21 07:09:10,721 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.104.64/LS20260621071028". Path contains illegal characters.
+2026-06-21 07:09:10,724 [INFO] Trap received with community: 
+2026-06-21 07:09:10,724 [INFO] Total OIDs: 17
+2026-06-21 07:09:10,920 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu29.json HTTP/1.1" 200 261
+2026-06-21 07:09:11,104 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu29.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:11,114 [INFO] Trap received with community: 
+2026-06-21 07:09:11,114 [INFO] Total OIDs: 17
+2026-06-21 07:09:11,291 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu26.json HTTP/1.1" 200 412
+2026-06-21 07:09:11,473 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu26.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:11,477 [INFO] Trap received with community: 
+2026-06-21 07:09:11,477 [INFO] Total OIDs: 17
+2026-06-21 07:09:11,653 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu21.json HTTP/1.1" 200 481
+2026-06-21 07:09:11,654 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.144/LS20260621071029". Path contains illegal characters.
+2026-06-21 07:09:11,663 [INFO] Trap received with community: 
+2026-06-21 07:09:11,663 [INFO] Total OIDs: 17
+2026-06-21 07:09:11,833 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu31.json HTTP/1.1" 200 301
+2026-06-21 07:09:12,011 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu31.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:12,017 [INFO] Trap received with community: 
+2026-06-21 07:09:12,017 [INFO] Total OIDs: 17
+2026-06-21 07:09:12,190 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu32.json HTTP/1.1" 200 301
+2026-06-21 07:09:12,370 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu32.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:12,379 [INFO] Trap received with community: 
+2026-06-21 07:09:12,379 [INFO] Total OIDs: 17
+2026-06-21 07:09:12,557 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu26.json HTTP/1.1" 200 408
+2026-06-21 07:09:12,745 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu26.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:12,761 [INFO] Trap received with community: 
+2026-06-21 07:09:12,761 [INFO] Total OIDs: 17
+2026-06-21 07:09:12,938 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu1.json HTTP/1.1" 200 394
+2026-06-21 07:09:13,116 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PUT /customerdata/2966666/LS20260621071029.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:13,294 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu1.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:13,303 [INFO] Trap received with community: 
+2026-06-21 07:09:13,303 [INFO] Total OIDs: 17
+2026-06-21 07:09:13,494 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu18.json HTTP/1.1" 200 447
+2026-06-21 07:09:13,495 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.209/LS20260621071030". Path contains illegal characters.
+2026-06-21 07:09:13,498 [INFO] Trap received with community: 
+2026-06-21 07:09:13,498 [INFO] Total OIDs: 17
+2026-06-21 07:09:13,667 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu30.json HTTP/1.1" 200 301
+2026-06-21 07:09:13,853 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu30.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:13,857 [INFO] Trap received with community: 
+2026-06-21 07:09:13,857 [INFO] Total OIDs: 17
+2026-06-21 07:09:14,030 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu29.json HTTP/1.1" 200 261
+2026-06-21 07:09:14,211 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu29.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:14,216 [INFO] Trap received with community: 
+2026-06-21 07:09:14,216 [INFO] Total OIDs: 17
+2026-06-21 07:09:14,398 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu3.json HTTP/1.1" 200 465
+2026-06-21 07:09:14,572 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu3.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:14,585 [INFO] Trap received with community: 
+2026-06-21 07:09:14,585 [INFO] Total OIDs: 17
+2026-06-21 07:09:14,766 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu3.json HTTP/1.1" 200 461
+2026-06-21 07:09:14,940 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu3.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:14,944 [INFO] Trap received with community: 
+2026-06-21 07:09:14,944 [INFO] Total OIDs: 17
+2026-06-21 07:09:15,117 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu26.json HTTP/1.1" 200 408
+2026-06-21 07:09:15,295 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu26.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:15,311 [INFO] Trap received with community: 
+2026-06-21 07:09:15,311 [INFO] Total OIDs: 17
+2026-06-21 07:09:15,484 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu3.json HTTP/1.1" 200 457
+2026-06-21 07:09:15,665 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu3.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:15,673 [INFO] Trap received with community: 
+2026-06-21 07:09:15,673 [INFO] Total OIDs: 17
+2026-06-21 07:09:15,851 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu19.json HTTP/1.1" 200 470
+2026-06-21 07:09:16,033 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu19.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:16,038 [INFO] Trap received with community: 
+2026-06-21 07:09:16,038 [INFO] Total OIDs: 17
+2026-06-21 07:09:16,213 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu19.json HTTP/1.1" 200 466
+2026-06-21 07:09:16,403 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu19.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:16,411 [INFO] Trap received with community: 
+2026-06-21 07:09:16,411 [INFO] Total OIDs: 17
+2026-06-21 07:09:16,589 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu30.json HTTP/1.1" 200 301
+2026-06-21 07:09:16,772 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu30.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:16,788 [INFO] Trap received with community: 
+2026-06-21 07:09:16,788 [INFO] Total OIDs: 17
+2026-06-21 07:09:16,967 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu18.json HTTP/1.1" 200 301
+2026-06-21 07:09:17,147 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu18.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:17,151 [INFO] Trap received with community: 
+2026-06-21 07:09:17,151 [INFO] Total OIDs: 17
+2026-06-21 07:09:17,327 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu26.json HTTP/1.1" 200 265
+2026-06-21 07:09:17,510 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu26.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:17,526 [INFO] Trap received with community: 
+2026-06-21 07:09:17,526 [INFO] Total OIDs: 17
+2026-06-21 07:09:17,704 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu11.json HTTP/1.1" 200 456
+2026-06-21 07:09:17,885 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu11.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:17,894 [INFO] Trap received with community: 
+2026-06-21 07:09:17,895 [INFO] Total OIDs: 17
+2026-06-21 07:09:18,071 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu17.json HTTP/1.1" 200 477
+2026-06-21 07:09:18,251 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu17.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:18,261 [INFO] Trap received with community: 
+2026-06-21 07:09:18,261 [INFO] Total OIDs: 17
+2026-06-21 07:09:18,435 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu7.json HTTP/1.1" 200 425
+2026-06-21 07:09:18,614 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu7.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:18,619 [INFO] Trap received with community: 
+2026-06-21 07:09:18,620 [INFO] Total OIDs: 17
+2026-06-21 07:09:18,799 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu17.json HTTP/1.1" 200 473
+2026-06-21 07:09:18,984 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu17.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:18,988 [INFO] Trap received with community: 
+2026-06-21 07:09:18,988 [INFO] Total OIDs: 17
+2026-06-21 07:09:19,173 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu26.json HTTP/1.1" 200 261
+2026-06-21 07:09:19,356 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu26.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:19,360 [INFO] Trap received with community: 
+2026-06-21 07:09:19,360 [INFO] Total OIDs: 17
+2026-06-21 07:09:19,532 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu11.json HTTP/1.1" 200 452
+2026-06-21 07:09:19,706 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu11.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:19,711 [INFO] Trap received with community: 
+2026-06-21 07:09:19,711 [INFO] Total OIDs: 17
+2026-06-21 07:09:19,885 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu16.json HTTP/1.1" 200 471
+2026-06-21 07:09:20,060 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu16.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:20,064 [INFO] Trap received with community: 
+2026-06-21 07:09:20,064 [INFO] Total OIDs: 17
+2026-06-21 07:09:20,234 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu16.json HTTP/1.1" 200 467
+2026-06-21 07:09:20,401 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu16.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:20,405 [INFO] Trap received with community: 
+2026-06-21 07:09:20,405 [INFO] Total OIDs: 17
+2026-06-21 07:09:20,580 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu18.json HTTP/1.1" 200 301
+2026-06-21 07:09:20,910 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu18.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:20,926 [INFO] Trap received with community: 
+2026-06-21 07:09:20,926 [INFO] Total OIDs: 17
+2026-06-21 07:09:21,095 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu17.json HTTP/1.1" 200 473
+2026-06-21 07:09:21,096 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.190/LS20260621071036". Path contains illegal characters.
+2026-06-21 07:09:21,100 [INFO] Trap received with community: 
+2026-06-21 07:09:21,100 [INFO] Total OIDs: 17
+2026-06-21 07:09:21,277 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu26.json HTTP/1.1" 200 261
+2026-06-21 07:09:21,455 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu26.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:21,464 [INFO] Trap received with community: 
+2026-06-21 07:09:21,465 [INFO] Total OIDs: 17
+2026-06-21 07:09:21,645 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu11.json HTTP/1.1" 200 452
+2026-06-21 07:09:21,818 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PUT /customerdata/2999315/LS20260621071037.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:21,994 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu11.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:21,999 [INFO] Trap received with community: 
+2026-06-21 07:09:21,999 [INFO] Total OIDs: 17
+2026-06-21 07:09:22,177 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu16.json HTTP/1.1" 200 467
+2026-06-21 07:09:22,178 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.188/LS20260621071037". Path contains illegal characters.
+2026-06-21 07:09:22,181 [INFO] Trap received with community: 
+2026-06-21 07:09:22,182 [INFO] Total OIDs: 17
+2026-06-21 07:09:22,426 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu19.json HTTP/1.1" 200 466
+2026-06-21 07:09:22,427 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.232/LS20260621071038". Path contains illegal characters.
+2026-06-21 07:09:22,430 [INFO] Trap received with community: 
+2026-06-21 07:09:22,430 [INFO] Total OIDs: 17
+2026-06-21 07:09:22,610 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu7.json HTTP/1.1" 200 421
+2026-06-21 07:09:22,844 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu7.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:22,848 [INFO] Trap received with community: 
+2026-06-21 07:09:22,848 [INFO] Total OIDs: 17
+2026-06-21 07:09:23,029 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu3.json HTTP/1.1" 200 461
+2026-06-21 07:09:23,031 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.185/LS20260621071039". Path contains illegal characters.
+2026-06-21 07:09:23,046 [INFO] Trap received with community: 
+2026-06-21 07:09:23,047 [INFO] Total OIDs: 17
+2026-06-21 07:09:23,235 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu3.json HTTP/1.1" 200 453
+2026-06-21 07:09:23,414 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu3.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:23,421 [INFO] Trap received with community: 
+2026-06-21 07:09:23,421 [INFO] Total OIDs: 17
+2026-06-21 07:09:23,639 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu7.json HTTP/1.1" 200 421
+2026-06-21 07:09:23,641 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.104.34/LS20260621071041". Path contains illegal characters.
+2026-06-21 07:09:23,650 [INFO] Trap received with community: 
+2026-06-21 07:09:23,651 [INFO] Total OIDs: 17
+2026-06-21 07:09:23,944 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu3.json HTTP/1.1" 200 453
+2026-06-21 07:09:23,946 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.103.193/LS20260621071045". Path contains illegal characters.
+2026-06-21 07:09:31,169 [INFO] Trap received with community: 
+2026-06-21 07:09:31,169 [INFO] Total OIDs: 17
+2026-06-21 07:09:31,347 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu12.json HTTP/1.1" 200 473
+2026-06-21 07:09:31,525 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu12.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:32,383 [INFO] Trap received with community: 
+2026-06-21 07:09:32,383 [INFO] Total OIDs: 17
+2026-06-21 07:09:32,562 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu12.json HTTP/1.1" 200 469
+2026-06-21 07:09:32,744 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu12.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:09:34,489 [INFO] Trap received with community: 
+2026-06-21 07:09:34,489 [INFO] Total OIDs: 17
+2026-06-21 07:09:34,662 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu12.json HTTP/1.1" 200 469
+2026-06-21 07:09:34,663 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.104.23/LS20260621071058". Path contains illegal characters.
+2026-06-21 07:13:43,818 [INFO] Trap received with community: 
+2026-06-21 07:13:43,818 [INFO] Total OIDs: 17
+2026-06-21 07:13:43,820 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 07:13:44,319 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon3onu14.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:13:45,924 [INFO] Trap received with community: 
+2026-06-21 07:13:45,924 [INFO] Total OIDs: 17
+2026-06-21 07:13:46,089 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon3onu14.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:26:39,943 [INFO] Trap received with community: 
+2026-06-21 07:26:39,943 [INFO] Total OIDs: 17
+2026-06-21 07:26:39,945 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 07:26:40,441 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu24.json HTTP/1.1" 200 392
+2026-06-21 07:26:40,618 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu24.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:26:41,018 [INFO] Trap received with community: 
+2026-06-21 07:26:41,018 [INFO] Total OIDs: 17
+2026-06-21 07:26:41,195 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu24.json HTTP/1.1" 200 410
+2026-06-21 07:26:41,375 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu24.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:26:43,362 [INFO] Trap received with community: 
+2026-06-21 07:26:43,362 [INFO] Total OIDs: 17
+2026-06-21 07:26:43,536 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu24.json HTTP/1.1" 200 410
+2026-06-21 07:26:43,715 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu24.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:57:13,408 [INFO] Trap received with community: 
+2026-06-21 07:57:13,408 [INFO] Total OIDs: 17
+2026-06-21 07:57:13,411 [DEBUG] Resetting dropped connection: oauth2.googleapis.com
+2026-06-21 07:57:13,888 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-06-21 07:57:13,890 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 07:57:14,413 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu70.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:57:15,517 [INFO] Trap received with community: 
+2026-06-21 07:57:15,517 [INFO] Total OIDs: 17
+2026-06-21 07:57:15,695 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu70.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:59:54,765 [INFO] Trap received with community: 
+2026-06-21 07:59:54,765 [INFO] Total OIDs: 17
+2026-06-21 07:59:54,767 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 07:59:55,241 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu70.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:59:55,245 [INFO] Trap received with community: 
+2026-06-21 07:59:55,245 [INFO] Total OIDs: 17
+2026-06-21 07:59:55,424 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu70.json?print=silent HTTP/1.1" 204 0
+2026-06-21 07:59:57,889 [INFO] Trap received with community: 
+2026-06-21 07:59:57,890 [INFO] Total OIDs: 17
+2026-06-21 07:59:58,072 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu70.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:09:02,329 [INFO] Trap received with community: 
+2026-06-21 08:09:02,329 [INFO] Total OIDs: 17
+2026-06-21 08:09:02,334 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 08:09:02,750 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu70.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:09:04,457 [INFO] Trap received with community: 
+2026-06-21 08:09:04,457 [INFO] Total OIDs: 17
+2026-06-21 08:09:04,631 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu70.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:15:38,262 [INFO] Trap received with community: 
+2026-06-21 08:15:38,262 [INFO] Total OIDs: 17
+2026-06-21 08:15:38,267 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 08:15:38,703 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu70.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:15:39,442 [INFO] Trap received with community: 
+2026-06-21 08:15:39,442 [INFO] Total OIDs: 17
+2026-06-21 08:15:39,622 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu70.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:15:42,087 [INFO] Trap received with community: 
+2026-06-21 08:15:42,087 [INFO] Total OIDs: 17
+2026-06-21 08:15:42,261 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon7onu70.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:22:26,296 [INFO] Trap received with community: 
+2026-06-21 08:22:26,297 [INFO] Total OIDs: 17
+2026-06-21 08:22:26,303 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 08:22:28,392 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon4onu101.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:22:35,985 [INFO] Trap received with community: 
+2026-06-21 08:22:35,985 [INFO] Total OIDs: 17
+2026-06-21 08:22:36,159 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /ongcoltdata/ongcpon4onu101.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:23:14,407 [INFO] Trap received with community: 
+2026-06-21 08:23:14,407 [INFO] Total OIDs: 17
+2026-06-21 08:23:14,410 [DEBUG] Resetting dropped connection: oauth2.googleapis.com
+2026-06-21 08:23:14,819 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-06-21 08:23:14,824 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 08:23:15,331 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu12.json HTTP/1.1" 200 457
+2026-06-21 08:23:15,632 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu12.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:23:16,477 [INFO] Trap received with community: 
+2026-06-21 08:23:16,477 [INFO] Total OIDs: 17
+2026-06-21 08:23:16,640 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon1onu12.json HTTP/1.1" 200 470
+2026-06-21 08:23:16,804 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon1onu12.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:28:44,172 [INFO] Trap received with community: 
+2026-06-21 08:28:44,172 [INFO] Total OIDs: 17
+2026-06-21 08:28:44,174 [DEBUG] Resetting dropped connection: oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app
+2026-06-21 08:28:44,691 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu1.json HTTP/1.1" 200 448
+2026-06-21 08:28:44,863 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu1.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:28:44,880 [INFO] Trap received with community: 
+2026-06-21 08:28:44,880 [INFO] Total OIDs: 17
+2026-06-21 08:28:45,050 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu1.json HTTP/1.1" 200 470
+2026-06-21 08:28:45,221 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon3onu1.json?print=silent HTTP/1.1" 204 0
+2026-06-21 08:28:46,971 [INFO] Trap received with community: 
+2026-06-21 08:28:46,971 [INFO] Total OIDs: 17
+2026-06-21 08:28:47,150 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon3onu1.json HTTP/1.1" 200 470
+2026-06-21 08:28:47,152 [ERROR] Firebase push failed: Invalid path: "customerdata/10.25.104.48/LS20260621083011". Path contains illegal characters.
+2026-06-21 13:42:25,472 [INFO] Trap received with community: 
+2026-06-21 13:42:25,473 [INFO] Total OIDs: 17
+2026-06-21 13:42:25,492 [DEBUG] Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2026-06-21 13:42:25,515 [DEBUG] Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2026-06-21 13:42:27,205 [DEBUG] https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2026-06-21 13:42:27,375 [DEBUG] Starting new HTTPS connection (1): oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443
+2026-06-21 13:42:27,936 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 441
+2026-06-21 13:42:28,216 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 13:42:28,220 [INFO] Trap received with community: 
+2026-06-21 13:42:28,220 [INFO] Total OIDs: 17
+2026-06-21 13:42:28,410 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 455
+2026-06-21 13:42:28,601 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 13:43:31,072 [INFO] Trap received with community: 
+2026-06-21 13:43:31,072 [INFO] Total OIDs: 17
+2026-06-21 13:43:31,260 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 455
+2026-06-21 13:43:31,571 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 13:43:32,252 [INFO] Trap received with community: 
+2026-06-21 13:43:32,252 [INFO] Total OIDs: 17
+2026-06-21 13:43:32,426 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 451
+2026-06-21 13:43:32,612 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0
+2026-06-21 13:43:35,000 [INFO] Trap received with community: 
+2026-06-21 13:43:35,000 [INFO] Total OIDs: 17
+2026-06-21 13:43:35,188 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "GET /dlsoltdata/dlspon2onu15.json HTTP/1.1" 200 451
+2026-06-21 13:43:35,375 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PUT /customerdata/2315111/LS20260621134459.json?print=silent HTTP/1.1" 204 0
+2026-06-21 13:43:35,557 [DEBUG] https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.app:443 "PATCH /dlsoltdata/dlspon2onu15.json?print=silent HTTP/1.1" 204 0

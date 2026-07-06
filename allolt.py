@@ -18,7 +18,7 @@ firebase_admin.initialize_app(cred, {
 # 🧠 OLT CONFIGURATION (ADD AS MANY AS YOU WANT)
 # ======================================================
 OLT_LIST = [
-    {
+   {
         "name": "KUNJABAN-OLT",
         "ip": "10.210.27.15",
         "community": "public",
@@ -61,7 +61,7 @@ OLT_LIST = [
         "firebase_dataset": "aptoltdata",
         "key_prefix": "apt"
     }
-    # 👉 Add more OLTs here
+   
 ]
 
 # ======================================================
@@ -116,6 +116,18 @@ def get_all_onu_status(olt):
     print("=" * 80)
 
     interfaces = walk_table(olt_ip, community, '1.3.6.1.2.1.2.2.1.2')
+    mac_table = walk_table(olt_ip, community, '1.3.6.1.4.1.37950.1.1.5.12.2.1.2.1.5')
+    mac_map = {}
+
+    for oid, mac in mac_table:
+        parts = oid.split('.')
+        # pon_no = "0/"+parts[-2]
+        pon_no = parts[-2]
+        onu_id = parts[-1]
+
+        mac_clean = mac.replace(' ', ':').upper()
+        mac_map[(int(pon_no), int(onu_id))] = mac_clean
+
 
     for oid, desc in interfaces:
         ifIndex = oid.split('.')[-1]
@@ -135,16 +147,29 @@ def get_all_onu_status(olt):
         onu_id = int(onu_match.group(1))
 
         status_str = 'UP' if ifOperStatus == '1' else 'DOWN'
+        macaddress = mac_map.get((pon_no, onu_id), "")
+        
+        
+        def format_mac(hexmac):
+            if not hexmac:
+                return ""
+            hexmac = hexmac.replace("0X", "").replace("0x", "").upper()
+            return ":".join(hexmac[i:i+2] for i in range(0, 12, 2))
+        
 
-        # 🔥 Firebase Key Format → kjnpon1onu3
+        mac = format_mac(macaddress)
+        # Firebase Key Format → kjnpon1onu3
         fb_key = f"{prefix}pon{pon_no}onu{onu_id}"
         lastevent = fb_ref.child(fb_key).get()
 
         # Safe defaults
         onustatus = lastevent.get('onustatus') if lastevent else None
         eventtime = lastevent.get('eventtime') if lastevent else None
+        synctime = lastevent.get('synctime') if lastevent else None
 
         # Fix: Always assign these variables
+
+        
         if status_str == "UP" and onustatus in ["LOS/Fibre break", "Powered-Off"]:
             updatedonustatus = "ONLINE"
             updatedeventtime = ""
@@ -152,8 +177,14 @@ def get_all_onu_status(olt):
             updatedonustatus = onustatus or "UNKNOWN"
             updatedeventtime = eventtime or ""
 
+        
 
         fb_ref.child(fb_key).update({
+            "database": dataset,
+            "key":fb_key,
+            "pon_no":"0/"+str(pon_no),
+            "onu_id":str(onu_id),
+            "macaddress": mac,
             "currentstatus": status_str,
             "synctime": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "onustatus":updatedonustatus,
@@ -161,7 +192,7 @@ def get_all_onu_status(olt):
 
         })
 
-        print(f"✅ {fb_key:<18} | {status_str}")
+        print(f"✅ {fb_key:<18} | {status_str} | {mac}")
 
 # ======================================================
 # ⏰ MAIN LOOP
@@ -173,5 +204,5 @@ if __name__ == "__main__":
         for olt in OLT_LIST:
             get_all_onu_status(olt)
 
-        print("\n💤 Waiting 300 seconds...\n")
-        time.sleep(300)
+        print("\n💤 Waiting 600 seconds...\n")
+        time.sleep(600)

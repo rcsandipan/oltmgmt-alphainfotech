@@ -172,11 +172,11 @@ def network_diagnostic():
         s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         
         try:
-            s.bind(('192.168.100.100', 165))
-            print("✅ Can bind to 192.168.100.100:165")
-            local_ip = '192.168.100.100'
+            s.bind(('0.0.0.0', 165))
+            print("✅ Can bind to 0.0.0.0:165")
+            local_ip = '0.0.0.0'
         except:
-            print("⚠️ Cannot bind to 192.168.100.100:165, trying all interfaces...")
+            print("⚠️ Cannot bind to 0.0.0.0:165, trying all interfaces...")
             s.bind(('0.0.0.0', 165))
             local_ip = '0.0.0.0'
             print(f"✅ Bound to all interfaces on port 165")
@@ -277,7 +277,14 @@ def parse_pon_message(message):
 # =========================
 def cbFun(snmpEngine, stateRef, contextEngineId, contextName, varBinds, cbCtx=None):
     print("\n" + "="*50)
+   
     current_local_time = datetime.now()
+
+    # transportDomain, transportAddress = snmpEngine.msgAndPduDsp.getTransportInfo(stateRef)
+    # real_ip = transportAddress[0]
+    # real_port = transportAddress[1]
+
+    # print(f"🌐 Trap Source: {real_ip}:{real_port}")
     print(f"📥 TRAP RECEIVED at {current_local_time.strftime('%H:%M:%S')}")
     print(f"Community: {contextName}")
     print(f"Number of OIDs: {len(varBinds)}")
@@ -458,6 +465,7 @@ if __name__ == "__main__":
     
     # Register callback
     ntfrcv.NotificationReceiver(snmpEngine, cbFun)
+
     
     # Start dispatcher
     try:

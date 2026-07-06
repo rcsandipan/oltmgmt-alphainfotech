@@ -10,29 +10,29 @@ DATABASE_URL = "https://oltmgmt-default-rtdb.asia-southeast1.firebasedatabase.ap
 SOURCE_NODES = [
 "aptoltdata",
 "bproltdata",
-"dlsoltdata",
 "gboltdata",
 "kcwoltdata",
 "kjnoltdata",
-"ongcoltdata"
+"ongcoltdata",
+"dlsoltdata"
 ]
 OLT_LOCATION_MAP = {
     "aptoltdata": "Ushabazar",
     "bproltdata": "Banerjee Para",
-    "dlsoltdata": "Dhaleswar",
     "gboltdata": "GB",
     "kcwoltdata": "Kaman Chowmuhani",
     "kjnoltdata": "Kunjaban",
-    "ongcoltdata": "ONGC Colony"
+    "ongcoltdata": "ONGC Colony",
+    "dlsoltdata": "Dhaleswar"
 }
 
-TARGET_NODE = "combinedlos"
+TARGET_NODE = "combinedlowpower"
 
-FILTER_STATUSES = {
-    "LOS/Fibre break"
-}
+# FILTER_STATUSES = {
+#     "LOS/Fibre break"
+# }
 
-INTERVAL_SECONDS = 1 * 60
+INTERVAL_SECONDS = 1 * 600
 # ---------------------------------------
 
 
@@ -65,12 +65,16 @@ def collect_and_push():
                     continue
 
                 # ✅ Must have onustatus key
-                if "onustatus" not in onu_data:
+                if "rxpower" not in onu_data:
+                    continue
+                rx_value = onu_data["rxpower"]
+                if rx_value is None or str(rx_value).strip() == "":
                     continue
 
-                onustatus = onu_data["onustatus"]
+                onurxpower = float(onu_data["rxpower"])
 
-                if onustatus in FILTER_STATUSES:
+
+                if onurxpower <-26:
                     unique_key = f"{source}_{onu_key}"
 
                     filtered_records[unique_key] = {

@@ -52,6 +52,16 @@ def get_all_onu_status(olt_ip, community='public'):
     print("=" * 80)
     
     interfaces = walk_table(olt_ip, community, '1.3.6.1.2.1.2.2.1.2')
+    mac_table = walk_table(olt_ip, community, '1.3.6.1.4.1.37950.1.1.5.12.1.25.1.5')
+    mac_map = {}
+    for oid, mac in mac_table:
+        parts = oid.split('.')
+        pon_no = parts[-2]
+        onu_id = parts[-1]
+
+        mac_clean = mac.upper()
+        mac_map[(int(pon_no), int(onu_id))] = mac_clean
+
     active_onus = 0
     pon_stats = {}
     
@@ -61,19 +71,57 @@ def get_all_onu_status(olt_ip, community='public'):
         
         pon_no, onu_id, is_valid = parse_onu_from_descr(desc)
         
+        # macaddress = mac_map.get((pon_no, onu_id), "")
+        
+        
+        def format_mac(hexmac):
+            if not hexmac:
+                return ""
+            hexmac = hexmac.upper()
+            return hexmac
+        
+
+        
+        fb_key = f"ongcpon{pon_no}onu{onu_id}"
+        lastevent = fb_ref.child(fb_key).get()
+
+        # Safe defaults
+        onustatus = lastevent.get('onustatus') if lastevent else None
+        eventtime = lastevent.get('eventtime') if lastevent else None
+
+
         if is_valid:
             status = 1 if ifOperStatus == '1' else 2
             status_str = 'UP' if status == 1 else 'DOWN'
+            macaddress = mac_map.get((int(pon_no), int(onu_id)), "")
+            mac = format_mac(macaddress)
             
             if status == 1: 
                 active_onus += 1
+
+            if status_str == "UP" and onustatus in ["LOS/Fibre break", "Powered-Off"]:
+                updatedonustatus = "ONLINE"
+                updatedeventtime = ""
+            else:
+                updatedonustatus = onustatus or "UNKNOWN"
+                updatedeventtime = eventtime or ""
+            
+
             
             fb_key = f"ongcpon{pon_no}onu{onu_id}"
-            onu_data = {'currentstatus': status_str,'synctime':datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            onu_data = {  "pon_no":"0/"+str(pon_no),
+                          "onu_id":str(onu_id),
+                          "key":fb_key,
+                          "database":"ongcoltdata",
+                         "macaddress": mac,
+                        'currentstatus': status_str,
+                        'synctime':datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                        "onustatus":updatedonustatus,
+                        "eventtime":updatedeventtime
                         }
             
             fb_ref.child(fb_key).update(onu_data)
-            print(f"✅ {fb_key:<15} | {desc[:30]:<30} | {status_str:<3} → Firebase")
+            print(f"✅ {fb_key:<15} | {desc[:30]:<30} | {mac}|{status_str:<3} → Firebase")
             
             # PON stats
             if pon_no not in pon_stats:
@@ -81,8 +129,8 @@ def get_all_onu_status(olt_ip, community='public'):
             pon_stats[pon_no]['total'] += 1
             if status == 1: 
                 pon_stats[pon_no]['active'] += 1
-        else:
-            print(f"⚠️  SKIP: {desc[:40]} (not EPON/ONU)")
+            else:
+                print(f"⚠️  SKIP: {desc[:40]} (not EPON/ONU)")
     
     print(f"\n📊 SUMMARY: {active_onus} active ONUs")
     for pon, stats in pon_stats.items():
@@ -164,5 +212,5 @@ if __name__ == "__main__":
         print(f"\n⏰ Scan at {datetime.now().strftime('%H:%M:%S')}")
         for config in working_olts:
             get_all_onu_status(config['ip'], config['community'])
-        print("💤 Waiting 300 seconds...\n")
-        time.sleep(30)
+        print("💤 Waiting 600 seconds...\n")
+        time.sleep(600)

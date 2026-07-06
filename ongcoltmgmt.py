@@ -172,11 +172,11 @@ def network_diagnostic():
         s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
         
         try:
-            s.bind(('192.168.100.100', 164))
-            print("✅ Can bind to 192.168.100.100:164")
-            local_ip = '192.168.100.100'
+            s.bind(('0.0.0.0', 164))
+            print("✅ Can bind to 0.0.0.0:164")
+            local_ip = '0.0.0.0'
         except:
-            print("⚠️ Cannot bind to 192.168.100.100:164, trying all interfaces...")
+            print("⚠️ Cannot bind to 0.0.0.0:164, trying all interfaces...")
             s.bind(('0.0.0.0', 164))
             local_ip = '0.0.0.0'
             print(f"✅ Bound to all interfaces on port 164")
